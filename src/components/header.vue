@@ -12,6 +12,7 @@ export default{
     <div class="headerArea">
         <RouterLink class="routeItem" to="/">Home</RouterLink>
         <RouterLink class="routeItem" to="/VtextAndVmodel">VtextAndVmodel</RouterLink>
+        <RouterLink class="routeItem" to="/VforAndVbind">VforAndVbind</RouterLink>
     </div>
 </template>
 

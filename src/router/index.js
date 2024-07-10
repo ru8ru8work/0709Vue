@@ -17,6 +17,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/VtextAndVmodel.vue')
     }
+    {
+      path: '/VforAndVbind',
+      name: 'VforAndVbind',
+      component: () => import('../views/VforAndVbind.vue')
+    },
   ]
 })
 
